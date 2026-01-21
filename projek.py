@@ -20,6 +20,7 @@ while True:
 
     # Menentukan kategori BMI
     if bmi < 18.5:
+        print("-" * 40)
         kategori = "Underweight"
         print("-" * 40)
         print(f"Kategori BMI Anda: {kategori}")
